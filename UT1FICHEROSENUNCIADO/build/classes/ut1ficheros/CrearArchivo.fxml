@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ut1ficheros.Controller">
+   <children>
+      <Label layoutX="77.0" layoutY="78.0" text="Nombre del archivo :" />
+      <Label layoutX="74.0" layoutY="149.0" text="Extensión del archivo :" />
+      <Label layoutX="75.0" layoutY="215.0" text="Añadir texto al archivo :" />
+      <TextField layoutX="244.0" layoutY="74.0" prefHeight="25.0" prefWidth="249.0" />
+      <TextArea layoutX="244.0" layoutY="221.0" prefHeight="187.0" prefWidth="372.0" />
+      <TextField layoutX="244.0" layoutY="145.0" prefHeight="25.0" prefWidth="249.0" />
+   </children>
+</AnchorPane>

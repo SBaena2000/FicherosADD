@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="357.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ut1ficheros.Controller">
+   <children>
+      <Button layoutX="204.0" layoutY="102.0" mnemonicParsing="false" onAction="#CrearArchivo" prefHeight="25.0" prefWidth="181.0" text="Crear archivo" />
+      <Button layoutX="204.0" layoutY="235.0" mnemonicParsing="false" onAction="#BuscarArchivo" prefHeight="25.0" prefWidth="181.0" text="Seleccionar archivo" />
+   </children>
+</AnchorPane>
